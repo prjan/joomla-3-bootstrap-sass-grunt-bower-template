@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade">
+	<name>Grunt-Sass-Compass-Bower-Boilerplate</name>
+	<creationDate>2015</creationDate>
+	<author>Sami Mannila</author>
+	<copyright>Copyright © 2015 webgen.fi</copyright>
+	<authorEmail>sami.mannila@webgen.fi</authorEmail>
+	<authorUrl>http://www.webgen.fi/</authorUrl>
+	<version>Stable 1.0.0</version>
+	<description><![CDATA[ 
+		<h1>Grunt-Sass-Compass-Bower-Boilerplate for Joomla! 3.0</h1>
+		<p>Created by <a href="http://www.webgen.fi/" target="_blank">Sami Mannila</a></p>
+	]]></description>
+	<files>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+    <positions>
+		<position>top</position>
+        <position>breadcrumbs</position>
+		<position>navigation</position>
+		<position>fullwidth</position>
+        <position>showcase</position>
+		<position>feature</position>
+        <position>left</position>
+        <position>right</position>
+        <position>content-top</position>
+        <position>content-bottom</position>
+        <position>bottom</position>    
+        <position>footer</position>
+		<position>debug</position>
+	</positions>
+</extension>
